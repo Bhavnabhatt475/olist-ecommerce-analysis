@@ -1,53 +1,89 @@
-# Olist E-commerce Sales Analysis
+# list Ecommerce Sales Analysis
 
-## Project Overview
-This project analyzes the Brazilian Olist e-commerce dataset to understand sales performance, customer behavior, product trends, and customer satisfaction.
+##  Project Overview
 
-The analysis was performed using Python (Pandas) and visualized using Power BI.
+This project analyzes the Brazilian Olist ecommerce dataset to understand sales performance, customer behavior, delivery efficiency, and seller contribution.
 
----
-
-## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Power BI
+The goal of this project is to extract meaningful business insights using **Python (Pandas)** and create an interactive **Power BI dashboard** for decision making.
 
 ---
 
-## Key Business Insights
+## Dataset
 
-• Most customers gave 4–5 star reviews, indicating high customer satisfaction.  
-• Credit card payments contribute the majority of total revenue.  
-• Beauty & Health and Watches & Gifts are top revenue-generating product categories.  
-• Faster deliveries are associated with better customer ratings.
+The dataset contains real ecommerce transactional data including:
 
----
-
-## Dashboard Pages
-
-### Sales Overview
-Shows total orders, revenue trend, and order status distribution.
-
-### Product Analysis
-Shows top product categories and revenue by payment type.
-
-### Customer Satisfaction
-Shows review distribution and delivery impact on ratings.
+* Customers information
+* Orders and order status
+* Order payments
+* Order reviews
+* Products and sellers
+* Geolocation data
 
 ---
 
-## Project Structure
-## Project Structure
+## Tools & Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib / Seaborn
+* Power BI
+* Git & GitHub
+
+---
+
+## Key Analysis Performed
+
+* Order status distribution analysis
+* Monthly sales trend analysis
+* Top performing sellers identification
+* Product category revenue contribution
+* Delivery time analysis
+* Customer review score analysis
+
+---
+
+## Dashboard Insights
+
+* Identified peak sales months
+* Found sellers generating highest revenue
+* Observed delivery delays patterns
+* Analyzed customer satisfaction trends
+
+---
 
 
-## Project Structure
 
-```
-data/
-   archive/
-   clean/
-notebooks/
-images/
-dashboard/
-```
+
+
+
+
+
+Dashboard Preview
+
+
+![Dashboard](images/dashboard.png)
+
+
+
+ Project Structure
+dashboard/     → Power BI dashboard file  
+data/          → Raw and cleaned datasets  
+notebooks/     → Data analysis notebook  
+README.md      → Project documentation  
+
+
+ Conclusion
+
+This project demonstrates end-to-end data analysis workflow including:
+
+✔ Data cleaning
+✔ Exploratory data analysis
+✔ Business insight generation
+✔ Data visualization
+✔ Dashboard creation
+
+ Author
+
+Bhumika Bhatt
+Aspiring Data Analyst
